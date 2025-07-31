@@ -1,0 +1,11 @@
+{
+  "schema_id": "7YDkff4YYPLY9sFU4GL2pC:2:University-Certificate:1.0.1753844993044",
+  "schema_name": "University-Certificate",
+  "schema_version": "1.0.1753844993044",
+  "attributes": [
+    "username",
+    "email",
+    "occupation",
+    "citizenship"
+  ]
+}
