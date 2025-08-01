@@ -1,7 +1,6 @@
-
 <div style="background-color: #f8f9fa; padding: 20px; border-radius: 8px; margin: 20px 0;">
 
-### 📁Structure
+### 📁 Structure
 
 ```
 ├── acapy/                    # ACA-Py repository (cloned from OpenWallet Foundation)
@@ -29,6 +28,7 @@
 ### 🧪 ACA-Py Agent Setup (`acapy/` – cloned separately)
 
 > Clone the official ACA-Py repo from OpenWallet
+
 ```bash
 # Clone OpenWallets official ACA-Py repository
 git clone -b 0.12.3 https://github.com/openwallet-foundation/acapy.git
@@ -62,7 +62,6 @@ cd acapy/demo
 # Run demo agent with Faber configuration
 LEDGER_URL=http://dev.greenlight.bcovrin.vonx.io ./run_demo faber
 ```
-
 
 ---
 
@@ -126,17 +125,23 @@ After installing:
 
 * Create a 6-digit PIN to log in
 * You can:
-
   * Connect with issuers/verifiers
   * Store credentials
   * Present proofs
   * Make your own invitation QR Code and share it with other parties
-  * 
- ---
-###Access Your Application
+
+---
+
+### 🌐 Access Your Application
+
 Once all services are running, you can access the application at:
+
 <div style="border-left: 4px solid #007bff; padding-left: 20px; margin: 15px 0;">
-Request Credentials: http://localhost:3000 ← Use this to request credentials
-Issue Credentials: http://localhost:3000/issuer ← Use this to give credentials
-Verify Credentials: http://localhost:3000/verifier ← Use this to verify credentials
+
+* **Request Credentials**: http://localhost:3000 ← Use this to request credentials
+* **Issue Credentials**: http://localhost:3000/issuer ← Use this to give credentials
+* **Verify Credentials**: http://localhost:3000/verifier ← Use this to verify credentials
+
+</div>
+
 </div>
