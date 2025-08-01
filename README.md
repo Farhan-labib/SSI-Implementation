@@ -135,7 +135,8 @@ After installing:
  ---
 ###Access Your Application
 Once all services are running, you can access the application at:
-
+<div style="border-left: 4px solid #007bff; padding-left: 20px; margin: 15px 0;">
 Request Credentials: http://localhost:3000 ← Use this to request credentials
 Issue Credentials: http://localhost:3000/issuer ← Use this to give credentials
 Verify Credentials: http://localhost:3000/verifier ← Use this to verify credentials
+</div>
