@@ -85,7 +85,7 @@ yarn install
 # Start server as issuer
 yarn issuer
 
-# OR start server as verifier
+# In another Terminal and from the same directory start server as verifier
 yarn verifier
 ```
 
