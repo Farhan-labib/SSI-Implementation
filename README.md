@@ -131,3 +131,11 @@ After installing:
   * Store credentials
   * Present proofs
   * Make your own invitation QR Code and share it with other parties
+  * 
+ ---
+###Access Your Application
+Once all services are running, you can access the application at:
+
+Request Credentials: http://localhost:3000 ← Use this to request credentials
+Issue Credentials: http://localhost:3000/issuer ← Use this to give credentials
+Verify Credentials: http://localhost:3000/verifier ← Use this to verify credentials
